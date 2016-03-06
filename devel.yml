@@ -1,0 +1,16 @@
+name: devel
+root: ~/
+# Vi copypaste mode
+# set-window-option -g mode-keys vi
+# bind-key -t vi-copy 'v' begin-selection
+# bind-key -t vi-copy 'y' copy-selection
+windows:
+  - server: ssh siv@127.0.0.1 -p 2223
+  - controller:
+      layout: tiled
+      panes:
+        - server: ssh siv@127.0.0.1 -p 2223
+        - server: ssh siv@127.0.0.1 -p 2223
+        - server: ssh siv@127.0.0.1 -p 2223
+        - server: ssh siv@127.0.0.1 -p 2223
+

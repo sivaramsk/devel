@@ -1,0 +1,13 @@
+name: dc
+root: ~/
+# Vi copypaste mode
+# set-window-option -g mode-keys vi
+# bind-key -t vi-copy 'v' begin-selection
+# bind-key -t vi-copy 'y' copy-selection
+windows:
+  - provserver: ssh montana@17.1.1.1
+  - ctrl1: ssh montana@17.2.1.1
+  - ctrl2: ssh montana@17.3.1.1
+  - ctrl3: ssh montana@17.4.1.1
+  - cmpte1: ssh montana@17.1.2.1
+  - cmpte2: ssh montana@17.2.2.1
